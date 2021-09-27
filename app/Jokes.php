@@ -635,7 +635,7 @@ class Jokes
 
 	public function getRandomJoke()
 	{
-		return $this->jokes[array_rand($this->jokes)];
+		return array($this->jokes[array_rand($this->jokes)]);
 	}
 
     public function getRandomJokes($num = 10)
