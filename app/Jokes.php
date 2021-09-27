@@ -751,7 +751,7 @@ class Jokes
         'What’s the difference between a hippo and a Zippo? One is heavy and one is a lot lighter.',
         'Why shouldn’t you write with a dull pencil? Because it’s pointless.',
         'How much does an influencer weigh? An Instagram.',
-        'What do you get when you combine a rhetorical question and a joke?',
+        'What do you get when you combine a rhetorical question and a joke?'
 
 	];
 

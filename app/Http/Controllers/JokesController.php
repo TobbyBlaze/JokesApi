@@ -18,6 +18,7 @@ class JokesController extends Controller
         return response()->json($joke);
     }
 
+    // Multiple jokes
     public function jokes(Request $request)
     {
         $numJokes = $request->input('num');
