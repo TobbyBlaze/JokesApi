@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('joke', 'JokesController@joke');
-Route::get('jokes', 'JokesController@jokes');
+Route::post('jokes', 'JokesController@jokes');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();

@@ -18,11 +18,12 @@ class JokesController extends Controller
         return response()->json($joke);
     }
 
-    public function jokes()
+    public function jokes(Request $request)
     {
+        $numJokes = $request->input('num');
         $jokes = new Jokes();
 
-        $joke = $jokes->getRandomJokes(20);
+        $joke = $jokes->getRandomJokes($numJokes);
 
         return response()->json($joke);
     }
