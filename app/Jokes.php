@@ -786,7 +786,7 @@ class Jokes
         }
 		return $jokes;
 
-        // // For counting
+        //  For counting
         // $jokes = count($this->jokes);
         // return $jokes;
 	}
